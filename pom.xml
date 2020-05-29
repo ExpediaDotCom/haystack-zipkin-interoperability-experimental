@@ -89,8 +89,6 @@
     <build>
         <sourceDirectory>${basedir}/src/main/java</sourceDirectory>
 
-
-        <!--<pluginManagement>-->
             <plugins>
 
                 <plugin>
@@ -218,66 +216,6 @@
                     </configuration>
                 </plugin>
             </plugins>
-        <!--</pluginManagement>-->
-
-        <!--<plugins>-->
-            <!--<plugin>-->
-                <!--<groupId>org.apache.maven.plugins</groupId>-->
-                <!--<artifactId>maven-source-plugin</artifactId>-->
-            <!--</plugin>-->
-            <!--<plugin>-->
-                <!--<groupId>org.apache.maven.plugins</groupId>-->
-                <!--<artifactId>maven-javadoc-plugin</artifactId>-->
-            <!--</plugin>-->
-            <!--<plugin>-->
-                <!--<groupId>org.apache.maven.plugins</groupId>-->
-                <!--<artifactId>maven-jar-plugin</artifactId>-->
-                <!--<version>${maven-jar-plugin-version}</version>-->
-            <!--</plugin>-->
-            <!--<plugin>-->
-                <!--<groupId>org.apache.maven.plugins</groupId>-->
-                <!--<artifactId>maven-gpg-plugin</artifactId>-->
-            <!--</plugin>-->
-            <!--<plugin>-->
-                <!--<groupId>org.sonatype.plugins</groupId>-->
-                <!--<artifactId>nexus-staging-maven-plugin</artifactId>-->
-                <!--<extensions>true</extensions>-->
-                <!--<configuration>-->
-                    <!--<serverId>ossrh</serverId>-->
-                    <!--<nexusUrl>https://oss.sonatype.org/</nexusUrl>-->
-                    <!--<autoReleaseAfterClose>true</autoReleaseAfterClose>-->
-                <!--</configuration>-->
-            <!--</plugin>-->
-        <!--</plugins>-->
-
-        <!--<plugins>-->
-            <!--<plugin>-->
-                <!--<groupId>org.codehaus.mojo</groupId>-->
-                <!--<artifactId>build-helper-maven-plugin</artifactId>-->
-            <!--</plugin>-->
-            <!--<plugin>-->
-                <!--<groupId>org.apache.maven.plugins</groupId>-->
-                <!--<artifactId>maven-compiler-plugin</artifactId>-->
-            <!--</plugin>-->
-
-            <!--<plugin>-->
-                <!--<groupId>org.apache.maven.plugins</groupId>-->
-                <!--<artifactId>maven-source-plugin</artifactId>-->
-            <!--</plugin>-->
-            <!--<plugin>-->
-                <!--<groupId>org.apache.maven.plugins</groupId>-->
-                <!--<artifactId>maven-javadoc-plugin</artifactId>-->
-            <!--</plugin>-->
-            <!--<plugin>-->
-                <!--<groupId>org.apache.maven.plugins</groupId>-->
-                <!--<artifactId>maven-jar-plugin</artifactId>-->
-            <!--</plugin>-->
-            <!--<plugin>-->
-                <!--<groupId>org.apache.maven.plugins</groupId>-->
-                <!--<artifactId>maven-gpg-plugin</artifactId>-->
-            <!--</plugin>-->
-
-        <!--</plugins>-->
 
     </build>
 
