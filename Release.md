@@ -1,5 +1,5 @@
 #Releasing
-Currently we publish the repo to docker hub and nexus central repository.
+Currently we publish the repo to nexus central repository.
 
 #How to release and publish
 
