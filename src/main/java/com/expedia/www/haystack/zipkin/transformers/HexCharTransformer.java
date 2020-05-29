@@ -14,6 +14,8 @@
  *        limitations under the License.
  */
 
+package com.expedia.www.haystack.zipkin.transformers;
+
 import org.apache.commons.lang3.Validate;
 
 import java.util.UUID;

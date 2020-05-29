@@ -1,5 +1,3 @@
-import unit.UnitTestSpec
-
 /*
  * Copyright 2020 Expedia Group.
  *
@@ -15,6 +13,11 @@ import unit.UnitTestSpec
  *        See the License for the specific language governing permissions and
  *        limitations under the License.
  */
+
+
+package com.expedia.www.haystack.zipkin.transformers
+
+import unit.UnitTestSpec
 
 class HexCharTransformerSpec extends UnitTestSpec {
 

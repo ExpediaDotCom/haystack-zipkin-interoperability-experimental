@@ -1,6 +1,3 @@
-import java.util.UUID
-
-import unit.UnitTestSpec
 /*
  * Copyright 2020 Expedia Group.
  *
@@ -18,13 +15,20 @@ import unit.UnitTestSpec
  */
 
 
+package com.expedia.www.haystack.zipkin.transformers
+
+import java.util.UUID
+
+import unit.UnitTestSpec
+
+
 class UUIDTransformerSpec extends UnitTestSpec {
 
   "UUID Transformer" should {
     "transform a given UUID to 128 bit hex char value" in {
 
       Given("a UUID value")
-      val uuid  = UUID.randomUUID()
+      val uuid  = UUID.fromString("fee92dfd-87cb-430f-a309-22dc540270b5")
 
       When("UUID Transformer is called")
       val hexChar = UUIDTransformer.uuidTo128BitHexCharEncoding(uuid)
@@ -38,7 +42,7 @@ class UUIDTransformerSpec extends UnitTestSpec {
     "transform a given UUID to 64 bit hex char value" in {
 
       Given("a UUID value")
-      val uuid  = UUID.randomUUID()
+      val uuid  = UUID.fromString("fee92dfd-87cb-430f-a309-22dc540270b5")
 
 
       When("UUID Transformer is called")
