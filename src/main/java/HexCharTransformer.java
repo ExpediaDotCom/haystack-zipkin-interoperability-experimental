@@ -14,12 +14,16 @@
  *        limitations under the License.
  */
 
+import org.apache.commons.lang3.Validate;
+
 import java.util.UUID;
 
 public class HexCharTransformer {
 
 
     public static UUID hexCharToUUID(String value) throws IllegalArgumentException {
+
+        Validate.notNull(value, "The given value cannot be null");
 
         long msb = 0l;
         long lsb;

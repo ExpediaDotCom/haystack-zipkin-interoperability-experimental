@@ -14,6 +14,8 @@
  *        limitations under the License.
  */
 
+import org.apache.commons.lang3.Validate;
+
 import java.util.UUID;
 
 /**
@@ -23,6 +25,7 @@ import java.util.UUID;
 public class UUIDTransformer {
 
     public static String uuidTo128BitHexCharEncoding(UUID id) {
+        Validate.notNull(id, "The uuid cannot be null");
         Long msb = id.getMostSignificantBits();
         Long lsb = id.getLeastSignificantBits();
         return Long.toHexString(msb).concat(Long.toHexString(lsb));
@@ -30,15 +33,18 @@ public class UUIDTransformer {
 
 
     public static String uuidTo64BitHexCharEncoding(UUID id) {
+        Validate.notNull(id, "The uuid cannot be null");
         return Long.toHexString(id.getLeastSignificantBits());
     }
 
     public static String uuidTo128BitHexCharEncoding(String id) throws IllegalArgumentException {
+        Validate.notNull(id, "The uuid cannot be null");
         return uuidTo128BitHexCharEncoding(UUID.fromString(id));
     }
 
 
     public static String uuidTo64BitHexCharEncoding(String id) throws IllegalArgumentException {
+        Validate.notNull(id, "The uuid cannot be null");
         return uuidTo64BitHexCharEncoding(UUID.fromString(id));
     }
 
