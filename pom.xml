@@ -9,6 +9,54 @@
     <version>1.0.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
+
+    <scm>
+        <connection>scm:git:git://github.com/ExpediaDotCom/haystack-zipkin-interoperability-experimental.git</connection>
+        <developerConnection>scm:git:ssh://github.com/ExpediaDotCom/haystack-zipkin-interoperability-experimental.git</developerConnection>
+        <url>http://github.com/ExpediaDotCom/haystack-zipkin-interoperability-experimental</url>
+    </scm>
+
+    <name>haystack-zipkin-interoperability-experimental</name>
+    <description>This Library to convert the three ids, viz trace-id , span-id, parent-span-id in UUID format to zipkin B3 format in terms of hex char encodings.</description>
+    <url>https://github.com/ExpediaDotCom/haystack-zipkin-interoperability-experimental/tree/master</url>
+
+    <licenses>
+        <!--
+           /*
+            *
+            *  Copyright 2020 Expedia, Inc.
+            *
+            *     Licensed under the Apache License, Version 2.0 (the "License");
+            *     you may not use this file except in compliance with the License.
+            *     You may obtain a copy of the License at
+            *
+            *         http://www.apache.org/licenses/LICENSE-2.0
+            *
+            *     Unless required by applicable law or agreed to in writing, software
+            *     distributed under the License is distributed on an "AS IS" BASIS,
+            *     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+            *     See the License for the specific language governing permissions and
+            *     limitations under the License.
+            *
+            */
+          -->
+        <license>
+            <name>Apache License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <id>haystack</id>
+            <name>Haystack Team</name>
+            <email>haystack@expedia.com</email>
+            <url>https://github.com/ExpediaDotCom/haystack</url>
+        </developer>
+    </developers>
+
+
     <properties>
 
         <commons.lang.version>3.0</commons.lang.version>
