@@ -17,7 +17,7 @@
     </scm>
 
     <name>haystack-zipkin-interoperability-experimental</name>
-    <description>This Library to convert the three ids, viz trace-id , span-id, parent-span-id in UUID format to zipkin B3 format in terms of hex char encodings.</description>
+    <description>Library to convert the three ids, viz trace-id , span-id, parent-span-id in UUID format to zipkin B3 format in terms of hex char encodings.</description>
     <url>https://github.com/ExpediaDotCom/haystack-zipkin-interoperability-experimental/tree/master</url>
 
     <licenses>
