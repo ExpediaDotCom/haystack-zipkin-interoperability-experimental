@@ -25,7 +25,7 @@ import java.util.regex.Pattern;
  * Class to validate a UUID value
  */
 public class UUIDValidator {
-    private static final String UUID_PATTERN = "[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}";
+    private static final String UUID_PATTERN = "[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}";
 
     public static boolean isValidUUID(String uuid) {
         Validate.notNull(uuid, "The uuid cannot be null");
